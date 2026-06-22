@@ -123,28 +123,3 @@ cd backend
 venv/bin/python3 verify_backend.py
 ```
 
----
-
-## Demo Script for Video Recording
-
-Here is a 2-minute walkthrough guide for video submissions:
-
-1. **Introduction (0:00 - 0:20)**:
-   - Introduce yourself and state: "This is ResumeTailor Agent, a capstone submission demonstrating Multi-Agent systems, MCP servers, and secure local-first design."
-   - Show the Dashboard and the beautiful glassmorphism dark theme.
-
-2. **Experience Library & Danger Zone (0:20 - 0:45)**:
-   - Click "Experience Library". Show how students can add or edit blocks.
-   - Point out the "Danger Zone" block at the bottom of the page: "Our security design provides a right-to-erasure button with a double-confirmation mechanism."
-
-3. **Multi-Agent Wizard Flow (0:45 - 1:25)**:
-   - Go to "Tailor Assistant". Paste a Software Engineer job description and click "Extract Requirements".
-   - Show the scanning animation and explain: "This starts our multi-agent pipeline. First, the `JobParser` extracts skills, which are handed off to the `Matcher` to score our saved blocks."
-   - Select blocks, click "Tailor Bullets". Show the side-by-side editing view: "Here, the `BulletRewriter` tailors wording while protecting metric values. Users can directly tweak the outputs."
-
-4. **Preview & Export (1:25 - 1:45)**:
-   - Proceed to Step 4. Point out the standard resume sheet rendering: "The `ResumeAssembler` validates the final document. We have confirmations before printing or exporting to DOCX/PDF."
-   - Click "Download DOCX", show the confirmation popup, and click download.
-
-5. **MCP Server Terminal Demonstration (1:45 - 2:00)**:
-   - Show your terminal running `python mcp_server.py` or the test suite: "Finally, our custom MCP server exposes tools allowing external LLMs to read, write, and search blocks directly in our database."
